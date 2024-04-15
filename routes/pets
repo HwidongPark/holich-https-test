@@ -1,0 +1,8 @@
+const express = require("express");
+const router = express.Router();
+
+const petController = require("../controller/petController");
+
+router.get('/cat', petController.getCat);
+
+module.exports = router;
