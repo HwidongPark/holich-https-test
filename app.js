@@ -11,6 +11,6 @@ app.get("/", (req, res, next) => {
     res.send("<h1>This is home page. Hi! </h1>");
 })
 
-app.listen(3000, () => {
-    console.log("CONNECTED ON PORT 3000");
+app.listen(80, () => {
+    console.log("CONNECTED ON PORT 80");
 })
